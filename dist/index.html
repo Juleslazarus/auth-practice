@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auth practice</title>
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="text-center text-3xl text-blue-500 font-bold">Sign-Up Today!</h1>    
+    <div class="mainCont grid justify-center"> 
+        <div class="formCont h-[60vh] w-[65vw] bg-gray-100 rounded-lg">
+            <form class="signupForm grid justify-center">
+                <label>Email:</label>
+                <input type="email" class="emailInput" required>
+                <label>First Name:</label>
+                <input type="text" class="firstInput" required>
+                <label> Last Name:</label>
+                <input type="text" class="lastInput" required>
+                <label>Password:</label>
+                <input type="password" class="passInput" required>
+                <button type='submit' class="signUpBtn p-1 drop-shadow-lg bg-blue-500 text-white rounded-md font-bold">Sign-Up!</button>
+            </form>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
